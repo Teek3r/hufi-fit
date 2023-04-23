@@ -57,6 +57,115 @@ body {
     margin: auto;
 }
 
+#nav-header-top
+{
+    display: flex;
+    justify-content: space-between;
+}
+#nav2-header1
+{
+    justify-content: space-between;
+}
+#nav1-header1 ul , #nav2-header1 ul
+{
+    display: flex;
+    position: relative;
+    list-style-type: none;
+}
+#nav1-header1 ul li, #nav2-header1 ul li
+{
+    display: inline-block;
+}
+#nav1-header1 ul li a , #nav2-header1 ul li a
+{
+    color: aliceblue;
+    display: inline-block;
+}
+#nav1-header1 ul li a:hover , #nav2-header1 ul li a:hover
+{
+    color: yellow;
+}
+#logo-header-mid
+{
+    display: flex;
+    margin-left: 120px;
+    margin-right: 200px;
+    margin-top: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#logo1-header2 img
+{
+    max-height: 80px;
+    max-width: 100%;
+}
+#logo-school-name
+{
+    text-align: center;
+    margin-bottom: 5px;
+}
+#logo-school-name .title1
+{
+    margin-bottom: 10px;
+    color: #0066b3;
+    font-size: 18px;
+}
+#logo-school-name .title2
+{
+    margin-bottom: 5px;
+    color: #fe0000;
+    font-size: 25px;
+}
+#header3
+{
+    margin-top: 5px;
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+    background-color:#DDDDDD;
+    box-shadow: 6px 8px 6px -6px rgba(1, 38, 76, 0.55);
+    outline: none;
+    box-sizing: border-box;
+    align-items: center;
+    
+}
+#header3-menu
+{
+    margin-left: 155px;
+    display: flex;
+    align-items: center;
+}
+#header3-seach
+{
+    margin-right: 155px;
+}
+#header3-menu a
+{
+    list-style-type: none;
+    display: inline-block;
+}
+#header3-menu a:hover
+{
+    color: blue;
+}
+#header3-menu img
+{
+    width: 20px;
+    height: 20px;
+    margin: 12px;
+}
+#header3-seach img
+{
+    width: 40px;
+    height: 30px;
+    margin: 12px;
+}
+#header3-seach input
+{
+    padding: 7px 15px;
+}
+
 #banner {
     /* background-color: #f5f6fa; */
     background-color: #f5f6fa;
@@ -348,4 +457,115 @@ img {
     color: white;
     z-index: 2;
     font-size: 20px;
+}
+
+#main-content2 .container-content .container-inside
+{
+    display: flex;
+    justify-content: space-between;
+}
+.news-part-wrap
+{
+    width: 735px;
+    height: 455px;
+}
+.widget
+{
+    width: 360px;
+}
+.news-part
+{
+    display: flex;
+    margin-inline-start: 5px;
+}
+.home-title a, .home-title
+{
+    color: #0066cb;
+    font-size: 16px;
+}
+.ulOrderNews
+{
+    display: flex;
+    justify-content: space-between;
+    margin: 25px;
+    margin-left: 250px;
+
+}
+.wrap-bg ul
+{
+    list-style-type: none;
+}
+.ulOrderNews li a
+{
+    color: #555;
+    font-size: 14px;
+}
+.ulOrderNews li a:hover
+{
+    color: red;
+}
+.single-news
+{
+    display: flex;
+    margin-left: 10px;
+}
+.news-thum img
+{
+    width: 140px;
+    height: 80px;
+}
+.news-cont a h3 {
+    font-size: 14px;
+    color: #555;
+    line-height: 22px;
+    font-weight: bold;
+    padding: 0;
+    -webkit-transition: all 0.4s linear;
+    transition: all 0.4s linear;
+    margin: 0;
+}
+.view-more
+{
+    margin-top: 20px ;
+    margin-left: 640px;
+    color: red;
+    font-size: 14px;
+}
+.wrap-bg-1 .slide-item a img
+{
+    width: 345px;
+    height: 80px;
+    margin: 5px;
+}
+.location_con
+{
+    display: flex;
+    justify-content: space-around;
+    
+}
+dl
+{
+    display: flex;
+    
+}
+.mt-40
+{
+    display: flex;
+}
+.mt-40 a i img
+{
+    height: 45px;
+    background-color: white;
+    border-radius: 50%;
+}
+.map iframe
+{
+    width: 490px;
+    height: 265px;
+    margin-top: 25px;
+}
+.la-mb img
+{
+    width: 20px;
+    height: 18px;
 }
