@@ -127,7 +127,7 @@ body {
 
 .mySlides {
     display:none;
-    width: 100%;
+    /* width: 100%; */
 }
 
 .mySlides img {
