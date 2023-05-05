@@ -125,9 +125,9 @@ body {
     padding: 15px 15px;
 }
 
-.mySlides {
-    display:none;
-    /* width: 100%; */
+.mySlides 
+{
+    display: none;
 }
 
 .mySlides img {
