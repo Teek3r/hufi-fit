@@ -100,7 +100,6 @@ body {
 }
 
 #main-content4 {
-    height: 947px;
     background-color: #B0C4DE;
     border-bottom: 1px solid black;
 }
@@ -459,3 +458,119 @@ body {
     border-top: none;
 }
 /* end content1 */
+/* main content 4 */
+.container-inside-maincontent4 {
+    width: 100%;
+    /* height: 100%; */
+    background-color: white;
+    padding: 1px 10px 10px 10px;
+}
+#main-content4 {
+    /* height: 947px; */
+    background-color: #B0C4DE;
+    border-bottom: 1px solid black;
+}
+#content1{
+    display: flex;
+}
+#col1-maincontent4{
+    width: 75%;
+    /* background-color: #82b3ac; */
+    margin: 0px;
+    /* height: 500px; */
+    display: flex;
+}
+#col2-maincontent4{
+    width: 25%;
+    /* background-color: #1f67b0; */
+    margin: 0px;
+    /* height: 300px; */
+}
+#content2{
+    /* height: 300px; */
+    /* background-color: rgb(40, 60, 122); */
+}
+#col1{
+    width: 60%;
+    /* background-color: rgb(226, 172, 134); */
+}
+#col2{
+    width: 40%;
+    /* background-color: rgb(195, 195, 158); */
+    padding: 0px 8px 8px 8px;
+    /* height: 300px; */
+}
+#title-col1 h3{
+    margin: 0px;
+    font-size: 15px;
+}
+#list-news{
+    height: 390px;
+    overflow-x: hidden;
+    padding: 0px;
+}
+#list-news li{
+    height: 80px;
+    border-bottom: 1px dashed rgb(12, 0, 0);
+    list-style-type: none;
+    /* background-color: red; */
+    /* padding: 5px; */
+}
+#list-news li:first-child{
+    height: 110px;
+}
+.link-col2{
+    padding: 5px;
+}
+#endline{
+    clear: both;
+}
+.link-col2 img{
+    display: block;
+    width: 82px;
+    height: 55px;
+    margin-top: 2px;
+    margin-right: 10px;
+    float: left;
+}
+.link-col2 p{
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: bold;
+    padding: 0px;
+    margin: 0px;
+    text-align: justify;
+}
+.container-inside-maincontent4 h3{
+    font-size: 16px;
+}
+#list-ul-content2{
+    display: flex;
+    list-style-type: none;
+    padding: 0px;
+}
+#list-ul-content2 li{
+    width: 25%;
+}
+.list-content2{
+    padding: 4px;
+    justify-content: center;
+}
+.list-content2>div>img{
+    /* margin-left: 65px; */
+    /* căng giữa tạm thời */
+}
+.list-content2 p{
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: bold;
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+}
+.container-inside-maincontent4>h3{
+    border-bottom: 2px solid #b0b0b0;
+    padding: 0px 0px 5px 0px;
+    color: #166db5;
+}
+/* end main content 4 */
