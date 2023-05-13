@@ -48,12 +48,10 @@ body {
     padding: 0px 15px;
     height: 100%;
     margin: auto;
-    background-color: #6bebd8;
 }
 
 #logo-header-mid {
     width: 1110px;
-    background-color: rgb(198, 247, 185);
     height: 100%;
     margin: auto;
 }
@@ -574,3 +572,360 @@ body {
     color: #166db5;
 }
 /* end main content 4 */
+
+/* start header thanh tim kiem */
+#nav-header-top
+{
+    display: flex;
+    position:relative ;
+    margin: auto;
+    justify-content: space-between;
+}
+#nav1-header1 ul , #nav2-header1 ul
+{
+    margin-top: 9px;
+}
+#nav1-header1 ul li
+{
+    border-right: 1px white solid;
+}
+#nav1-header1 ul li:last-child
+{
+    border-right: none;
+}
+#nav1-header1 ul li, #nav2-header1 ul li
+{
+    display: inline-block;
+    padding-right: 5px;
+}
+#nav1-header1 ul li a , #nav2-header1 ul li a
+{
+    color: aliceblue;
+    font-size: 12px;
+    text-decoration: none;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#nav1-header1 ul li a:hover , #nav2-header1 ul li a:hover
+{
+    color: yellow;
+}
+#logo-header-mid
+{
+    display: flex;
+    margin-top: 5px;
+    justify-content: space-between;
+    align-items: center;
+}
+#logo1-header2 img
+{
+    max-height: 80px;
+    max-width: 100%;
+}
+#logo-school-name
+{
+    text-align: center;
+    margin-bottom: 5px;
+}
+#logo-school-name .title1
+{
+    margin-bottom: 10px;
+    color: #0066b3;
+    font-size: 18px;
+}
+#logo-school-name .title2
+{
+    margin-bottom: 5px;
+    color: #fe0000;
+    font-size: 25px;
+}
+#header3
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#header3-menu
+{
+    margin-left: 135px;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+#header3-seach
+{
+    margin-right: 175px;
+    display: flex;
+}
+#header3-menu ul li
+{
+    display: inline-block;
+    border-right: 1px black solid;
+    position: relative;
+    margin: auto;
+}
+#header3-menu ul li a
+{
+    text-decoration: none;
+    color: black;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+#header3-menu ul li:first-child
+{
+    border-right: none;
+}
+#header3-menu ul li:last-child
+{
+    border-right: none;
+}
+#header3-menu a:first-of-type
+{
+    border-left: none;
+}
+#header3-menu a:hover
+{
+    color: blue;
+}
+#header3-menu img
+{
+    width: 20px;
+    height: 20px;
+}
+#header3-seach img
+{
+    width: 40px;
+    height: 30px;
+}
+#header3-seach input
+{
+    padding: 5px 15px;
+}
+/* end header thanh tim kiem */
+
+/* start container2 */
+#main-content2 .container-content .container-inside
+{
+    display: flex;
+    justify-content: space-between;
+}
+.news-part-wrap
+{
+    width: 735px;
+    height: 455px;
+}
+.widget
+{
+    width: 360px;
+}
+.news-part
+{
+    display: flex;
+}
+.home-title a, .home-title
+{
+    color: #0066cb;
+    font-size: 16px;
+}
+.ulOrderNews
+{
+    display: flex;
+    justify-content: space-between;
+    margin: 25px;
+    margin-left: 250px;
+}
+.wrap-bg ul
+{
+    list-style-type: none;
+}
+.wrap-bg ul li
+{
+    border-right: 1px black solid;
+}
+.wrap-bg ul li:last-child
+{
+    border: none;
+}
+.ulOrderNews li a
+{
+    color: #555;
+    font-size: 14px;
+    text-decoration: none;
+    margin: 5px;
+}
+.ulOrderNews li a:hover
+{
+    color: red;
+}
+.single-news
+{
+    display: flex;
+}
+.single-news .news-cont
+{
+    margin-left: 10px;
+}
+.news-calendar
+{
+    font-size: 14px;
+}
+.news-thum img
+{
+    width: 140px;
+    height: 80px;
+}
+.news-cont a h3 {
+    font-size: 14px;
+    color: #555;
+    line-height: 22px;
+    font-weight: bold;
+    padding: 0;
+    -webkit-transition: all 0.4s linear;
+    transition: all 0.4s linear;
+    margin: 0px;
+}
+.news-cont p
+{
+    font-size: 14px;
+
+}
+.news-cont a h3:hover
+{
+    color:#007bff
+}
+.view-more
+{
+    margin-top: 20px ;
+    margin-left: 640px;
+    color: red;
+    font-size: 14px;
+}
+.wrap-bg-1 .slide-item a img
+{
+    width: 345px;
+    height: 80px;
+    margin: 5px;
+}
+.home-title a{
+    text-decoration: none;
+}
+/* end container2 */
+
+/* start footer */
+.location_con
+{
+    display: flex;
+    justify-content: space-around;
+}
+.location_con dt i {
+    width: 25px;
+    margin-left: 5px;
+}
+div.location_con .com_info dl dt {
+    float: left;
+    font-weight: normal;
+    text-align: left;
+    width: 120px;
+    margin: 10px 20px 0 2px;
+    border-right: 1px solid;
+    border-color: rgba(255, 255, 255, 0.1);
+}
+div.location_con .com_info dl {
+    border-bottom: 1px solid;
+    border-color: rgba(255, 255, 255, 0.1);
+    overflow: hidden;
+    font-size: 16px;
+    margin: 0;
+    color: #fff;
+    margin: 5px;
+}
+div.location_con .com_info dl dd{
+    margin-top: 9px;
+}
+.fa{
+    font-family: "Font Awesome 5 Pro";
+    font-weight: 900;
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    line-height: 1;
+}
+.com_info{
+    margin: 15px;
+}
+.mt-40
+{
+    display: flex;
+}
+.mt-40 a i img
+{
+    height: 45px;
+    background-color: white;
+    border-radius: 50%;
+}
+.map iframe
+{
+    width: 490px;
+    height: 265px;
+    margin-top: 25px;
+}
+.location_con .com_info .la-mb .fa img
+{
+    width: 20px;
+    height: 20px;
+}
+.footer-about{
+    margin-top: 30px;
+    margin-left: 70px;
+}
+.footer-about ul li
+{
+    display: inline-block;
+    margin-left: 20px;
+}
+.footer-about ul li a {
+    width: 47px;
+    height: 47px;
+    display: inline-block;
+    line-height: 50px;
+    font-size: 30px;
+    color: #fff;
+    text-align: center;
+}
+.footer-about ul li a.facebook {
+    background-image: url('../hinh-anh/Nav/ft_1_facbook.png');
+}
+.footer-about ul li a.zalo {
+    background-image: url('../hinh-anh/Nav/ft_1_zalo.png');
+}
+.footer-about ul li a.tiktok {
+    background-image: url('../hinh-anh/Nav/ft_1_tiktok.png');
+}
+.footer-about ul li a.youtube {
+    background-image: url('../hinh-anh/Nav/ft_1_youtube.png');
+}
+.footer-about ul li a.instagram {
+    background-image: url('../hinh-anh/Nav/ft_1_instagram.png');
+}
+.footer-copyright .copyright p {
+    color: #fff;
+    margin: 0;
+    font-size: 11px;
+    line-height: 18px;
+    margin-top: 12px;
+}
+.footer-copyright .row
+{
+    display: flex;
+}
+.col-md-8 .copyright p
+{
+    margin-left: 70px;
+}
+.col-md-4 .copyright p
+{
+    margin-left: 810px;
+}
+/* end footer */
