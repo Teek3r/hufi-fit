@@ -9,6 +9,7 @@
     <script src="./js/myScript.js"></script>
     <link rel="stylesheet" href="./css/style.css">
 </head>
+
 <body>
     <div id="container">
         <div id="header">
@@ -122,12 +123,12 @@
                         <script src="js/jssor.slider-28.1.0.min.js" type="text/javascript"></script>
                         <script type="text/javascript">
                             window.jssor_1_slider_init = function () {
-                
+
                                 var jssor_1_SlideshowTransitions = [
                                     { $Duration: 800, x: -0.3, $During: { $Left: [0.3, 0.7] }, $Easing: { $Left: $Jease$.$InCubic, $Opacity: $Jease$.$Linear }, $Opacity: 2 },
                                     { $Duration: 800, x: 0.3, $SlideOut: true, $Easing: { $Left: $Jease$.$InCubic, $Opacity: $Jease$.$Linear }, $Opacity: 2 }
                                 ];
-                
+
                                 var jssor_1_options = {
                                     $AutoPlay: 1,
                                     $SlideshowOptions: {
@@ -144,30 +145,30 @@
                                         $NoDrag: true
                                     }
                                 };
-                
+
                                 var jssor_1_slider = new $JssorSlider$("jssor_1", jssor_1_options);
-                
+
                                 /*#region responsive code begin*/
-                
+
                                 var MAX_WIDTH = 980;
-                
+
                                 function ScaleSlider() {
                                     var containerElement = jssor_1_slider.$Elmt.parentNode;
                                     var containerWidth = containerElement.clientWidth;
-                
+
                                     if (containerWidth) {
-                
+
                                         var expectedWidth = Math.min(MAX_WIDTH || containerWidth, containerWidth);
-                
+
                                         jssor_1_slider.$ScaleWidth(expectedWidth);
                                     }
                                     else {
                                         window.setTimeout(ScaleSlider, 30);
                                     }
                                 }
-                
+
                                 ScaleSlider();
-                
+
                                 $Jssor$.$AddEvent(window, "load", ScaleSlider);
                                 $Jssor$.$AddEvent(window, "resize", ScaleSlider);
                                 $Jssor$.$AddEvent(window, "orientationchange", ScaleSlider);
@@ -182,38 +183,38 @@
                                 animation-iteration-count: infinite;
                                 animation-timing-function: linear;
                             }
-                
+
                             @keyframes jssorl-009-spin {
                                 from {
                                     transform: rotate(0deg);
                                 }
-                
+
                                 to {
                                     transform: rotate(360deg);
                                 }
                             }
-                
+
                             .jssora061 {
                                 display: block;
                                 position: absolute;
                                 cursor: pointer;
                             }
-                
+
                             .jssora061 .a {
                                 fill: none;
                                 stroke: #fff;
                                 stroke-width: 360;
                                 stroke-linecap: round;
                             }
-                
+
                             .jssora061:hover {
                                 opacity: .8;
                             }
-                
+
                             .jssora061.jssora061dn {
                                 opacity: .5;
                             }
-                
+
                             .jssora061.jssora061ds {
                                 opacity: .3;
                                 pointer-events: none;
@@ -224,7 +225,8 @@
                             <!-- Loading Screen -->
                             <div data-u="loading" class="jssorl-009-spin"
                                 style="position:absolute;top:0px;left:0px;width:100%;height:100%;text-align:center;background-color:rgba(0,0,0,0.7);">
-                                <img style="margin-top:-19px;position:relative;top:50%;width:38px;height:38px;" src="img/spin.svg" />
+                                <img style="margin-top:-19px;position:relative;top:50%;width:38px;height:38px;"
+                                    src="img/spin.svg" />
                             </div>
                             <div data-u="slides"
                                 style="cursor:default;position:relative;top:0px;left:0px;width:980px;height:380px;overflow:hidden;">
@@ -243,19 +245,26 @@
                                     <div u="thumb">
                                     </div>
                                 </div>
-                            </div><a data-scale="0" href="https://www.jssor.com" style="display:none;position:absolute;">image
+                            </div><a data-scale="0" href="https://www.jssor.com"
+                                style="display:none;position:absolute;">image
                                 gallery</a>
                             <!-- Arrow Navigator -->
                             <div data-u="arrowleft" class="jssora061" style="width:55px;height:55px;top:0px;left:25px;"
                                 data-autocenter="2" data-scale="0.75" data-scale-left="0.75">
-                                <svg viewbox="0 0 16000 16000" style="position:absolute;top:0;left:0;width:100%;height:100%;">
-                                    <path class="a" d="M11949,1919L5964.9,7771.7c-127.9,125.5-127.9,329.1,0,454.9L11949,14079"></path>
+                                <svg viewbox="0 0 16000 16000"
+                                    style="position:absolute;top:0;left:0;width:100%;height:100%;">
+                                    <path class="a"
+                                        d="M11949,1919L5964.9,7771.7c-127.9,125.5-127.9,329.1,0,454.9L11949,14079">
+                                    </path>
                                 </svg>
                             </div>
-                            <div data-u="arrowright" class="jssora061" style="width:55px;height:55px;top:0px;right:25px;"
-                                data-autocenter="2" data-scale="0.75" data-scale-right="0.75">
-                                <svg viewbox="0 0 16000 16000" style="position:absolute;top:0;left:0;width:100%;height:100%;">
-                                    <path class="a" d="M5869,1919l5984.1,5852.7c127.9,125.5,127.9,329.1,0,454.9L5869,14079"></path>
+                            <div data-u="arrowright" class="jssora061"
+                                style="width:55px;height:55px;top:0px;right:25px;" data-autocenter="2" data-scale="0.75"
+                                data-scale-right="0.75">
+                                <svg viewbox="0 0 16000 16000"
+                                    style="position:absolute;top:0;left:0;width:100%;height:100%;">
+                                    <path class="a"
+                                        d="M5869,1919l5984.1,5852.7c127.9,125.5,127.9,329.1,0,454.9L5869,14079"></path>
                                 </svg>
                             </div>
                         </div>
@@ -308,19 +317,24 @@
                                 <h4>Tin tức hoạt động</h4>
                                 <div class="tinTuc">
                                     <div class="col1-tinTuc">
-                                        <img src="https://fit.hufi.edu.vn/app_web/cd_hufi/images/vien-chuc/10dhcd.jpg?width=260" width="100%" height="250px">
+                                        <img src="https://fit.hufi.edu.vn/app_web/cd_hufi/images/vien-chuc/10dhcd.jpg?width=260"
+                                            width="100%" height="250px">
                                         <p id="date">26/3/2023</p>
                                         <h5 style="margin: 0px; color: #555555;">
-                                            Tổ chức thành công Đại hội đại biểu Công đoàn Trường Đại học Công nghiệp Thực phẩm TP. Hồ Chí Minh lần thứ XII, nhiệm kỳ 2023 – 2028
+                                            Tổ chức thành công Đại hội đại biểu Công đoàn Trường Đại học Công nghiệp
+                                            Thực phẩm TP. Hồ Chí Minh lần thứ XII, nhiệm kỳ 2023 – 2028
                                         </h5>
                                         <p style="color: #212529;">
-                                            Với khẩu hiệu “Đổi mới, dân chủ, đoàn kết, phát triển”, sáng ngày 24/3/2023, Công đoàn Trường Đại học Công nghiệp Thực phẩm TP. Hồ Chí Minh đã long trọng tổ chức Đại hội đại biểu lần thứ XII, nhiệm kỳ...
+                                            Với khẩu hiệu “Đổi mới, dân chủ, đoàn kết, phát triển”, sáng ngày 24/3/2023,
+                                            Công đoàn Trường Đại học Công nghiệp Thực phẩm TP. Hồ Chí Minh đã long trọng
+                                            tổ chức Đại hội đại biểu lần thứ XII, nhiệm kỳ...
                                         </p>
                                     </div>
                                     <div class="col2-tinTuc">
                                         <div class="list-tinTuc1">
                                             <div class="row1">
-                                                <img src="https://hufi.edu.vn/images/su-kien-40-nam/background-fdse-2022_1-01.jpg" alt="" width="100%">
+                                                <img src="https://hufi.edu.vn/images/su-kien-40-nam/background-fdse-2022_1-01.jpg"
+                                                    alt="" width="100%">
                                             </div>
                                             <div class="row2">
                                                 <a href="">Hội nghị Quốc tế FDSE năm 2023</a>
@@ -329,16 +343,19 @@
                                         </div>
                                         <div class="list-tinTuc1">
                                             <div class="row1">
-                                                <img src="https://fit.hufi.edu.vn/kcntt/images/dao-tao-sau-dai-hoc/survey.jpg?width=110" alt="" width="100%">
+                                                <img src="https://fit.hufi.edu.vn/kcntt/images/dao-tao-sau-dai-hoc/survey.jpg?width=110"
+                                                    alt="" width="100%">
                                             </div>
                                             <div class="row2">
-                                                <a href="">Danh sách giảng viên giảng dạy cao học tại khoa Công nghệ Thông tin</a>
+                                                <a href="">Danh sách giảng viên giảng dạy cao học tại khoa Công nghệ
+                                                    Thông tin</a>
                                                 <p>28/12/2022</p>
                                             </div>
                                         </div>
                                         <div class="list-tinTuc1">
                                             <div class="row1">
-                                                <img src="https://fit.hufi.edu.vn/images/tin-tuc-hoat-dong/khai-mac-hoi-nghi-quoc-te-fdse-and-acompa-2022-1.jpg?width=110" alt="" width="100%">
+                                                <img src="https://fit.hufi.edu.vn/images/tin-tuc-hoat-dong/khai-mac-hoi-nghi-quoc-te-fdse-and-acompa-2022-1.jpg?width=110"
+                                                    alt="" width="100%">
                                             </div>
                                             <div class="row2">
                                                 <a href="">Khai mạc Hội nghị quốc tế FDSE and ACOMPA 2022</a>
@@ -347,10 +364,12 @@
                                         </div>
                                         <div class="list-tinTuc1">
                                             <div class="row1">
-                                                <img src="https://fit.hufi.edu.vn/app_web/cd_hufi/images/vien-chuc/giai-ba-1-khoa-cntp.jpg?width=110" alt="" width="100%">
+                                                <img src="https://fit.hufi.edu.vn/app_web/cd_hufi/images/vien-chuc/giai-ba-1-khoa-cntp.jpg?width=110"
+                                                    alt="" width="100%">
                                             </div>
                                             <div class="row2">
-                                                <a href="">Hội thi Nấu ăn “Gắn kết yêu thương” chào mừng kỷ niệm 92 năm ngày thành lập Hội Liên hiệp Phụ nữ...</a>
+                                                <a href="">Hội thi Nấu ăn “Gắn kết yêu thương” chào mừng kỷ niệm 92 năm
+                                                    ngày thành lập Hội Liên hiệp Phụ nữ...</a>
                                                 <p>24/10/2022</p>
                                             </div>
                                         </div>
@@ -362,19 +381,27 @@
                                 <ul class="list-thongBao">
                                     <li>
                                         <p>10/4/2023</p>
-                                        <a href="">Thông báo về việc triển khai cập nhật điểm rèn luyện đợt 1 học kỳ 2 năm học...</a></li>
+                                        <a href="">Thông báo về việc triển khai cập nhật điểm rèn luyện đợt 1 học kỳ 2
+                                            năm học...</a>
+                                    </li>
                                     <li>
                                         <p>8/4/2023</p>
-                                        <a href="">Sinh viên đăng ký tốt nghiệp đợt 1 năm 2023</a></li>
+                                        <a href="">Sinh viên đăng ký tốt nghiệp đợt 1 năm 2023</a>
+                                    </li>
                                     <li>
                                         <p>5/4/2023</p>
-                                        <a href="">Kế hoạch tổ chức Hội nghị tập huấn Ban cán sự lớp năm học 2022 - 2023</a></li>
+                                        <a href="">Kế hoạch tổ chức Hội nghị tập huấn Ban cán sự lớp năm học 2022 -
+                                            2023</a>
+                                    </li>
                                     <li>
                                         <p>28/3/2023</p>
-                                        <a href="">Tổ chức Hội thảo khoa học cấp khoa năm 2023</a></li>
+                                        <a href="">Tổ chức Hội thảo khoa học cấp khoa năm 2023</a>
+                                    </li>
                                     <li>
                                         <p>26/3/2023</p>
-                                        <a href="">Thông báo về danh sách dự kiến sinh viên đủ điều kiện xét cấp học bổng khuyến...</a></li>
+                                        <a href="">Thông báo về danh sách dự kiến sinh viên đủ điều kiện xét cấp học
+                                            bổng khuyến...</a>
+                                    </li>
                                 </ul>
                             </div>
                         </div>
@@ -387,113 +414,134 @@
                         <!-- Noi dung -->
                         <div class="news-part-wrap news-part-5 news-part-svdh showOrder" id="news-part-multi99">
                             <h3 class="home-title">
-                               ĐÀO TẠO - HỌC THUẬT -  ĐOÀN THỂ - THỰC TẬP
+                                ĐÀO TẠO - HỌC THUẬT - ĐOÀN THỂ - THỰC TẬP
                             </h3>
                             <hr>
                             <div class="wrap-bg block-news wrap-bg-2">
                                 <ul class="ulOrderNews">
-                                    
+
                                     <li>
                                         <a href="" onclick="LoadNewTypeMulti99;">Đào tạo</a>
                                     </li>
-                                     
+
                                     <li>
                                         <a href="" onclick="LoadNewTypeMulti99;">Nghiên cứu - Học Thuật</a>
                                     </li>
-                                    
+
                                     <li>
                                         <a href="" onclick="LoadNewTypeMulti99;">Đoàn thể</a>
                                     </li>
-                                    
+
                                     <li>
                                         <a href="" onclick="LoadNewTypeMulti99;">Thực tập - Kiến tập</a>
                                     </li>
-                                    
+
                                 </ul>
-                        
-                                <div id="div_load_multi99" class="div_load" data-route="dao-tao" data-sub="160" data-top="4" data-load="1">
-                            <div class="single-news zoom">
-                                
-                                    <div class="news-thum">
-                                        <a href="/dao-tao/quy-dinh-quy-trinh-kiem-tra-danh-gia-thi" title="Quy định, quy trình kiểm tra đánh giá thi">
-                                            <img alt="Quy định, quy trình kiểm tra đánh giá thi" src="./hinh-anh/thong-bao1.png" data-src="/kcntt/images/cntt_2020/thong-bao.png" onerror="this.onerror=null;this.src='/Images/no-img.webp'">
-                                        </a>
+
+                                <div id="div_load_multi99" class="div_load" data-route="dao-tao" data-sub="160"
+                                    data-top="4" data-load="1">
+                                    <div class="single-news zoom">
+
+                                        <div class="news-thum">
+                                            <a href="/dao-tao/quy-dinh-quy-trinh-kiem-tra-danh-gia-thi"
+                                                title="Quy định, quy trình kiểm tra đánh giá thi">
+                                                <img alt="Quy định, quy trình kiểm tra đánh giá thi"
+                                                    src="./hinh-anh/thong-bao1.png"
+                                                    data-src="/kcntt/images/cntt_2020/thong-bao.png"
+                                                    onerror="this.onerror=null;this.src='/Images/no-img.webp'">
+                                            </a>
+                                        </div>
+
+
+                                        <div class="news-cont">
+                                            <a href="/dao-tao/quy-dinh-quy-trinh-kiem-tra-danh-gia-thi"
+                                                title="Quy định, quy trình kiểm tra đánh giá thi">
+                                                <h3>Quy định, quy trình kiểm tra đánh giá thi</h3>
+                                            </a>
+                                            <span class="news-calendar"><i
+                                                    class="fad fa-calendar"></i>&nbsp;09/03/2023</span>
+                                            <p>Quy định, quy trình kiểm tra đánh giá thi</p>
+                                        </div>
                                     </div>
-                                
-                        
-                                <div class="news-cont">
-                                    <a href="/dao-tao/quy-dinh-quy-trinh-kiem-tra-danh-gia-thi" title="Quy định, quy trình kiểm tra đánh giá thi">
-                                        <h3>Quy định, quy trình kiểm tra đánh giá thi</h3>
-                                    </a>
-                                    <span class="news-calendar"><i class="fad fa-calendar"></i>&nbsp;09/03/2023</span>
-                                    <p>Quy định, quy trình kiểm tra đánh giá thi</p>
-                                </div>
-                            </div>
-                            
-                            <!-- single news -->
-                        
+
+                                    <!-- single news -->
+
                                     <div class="single-news zoom stt_2">
-                                        
-                                            <div class="news-thum">
-                        
-                                                <a href="/dao-tao/danh-sach-hoc-phan-truong-duong-thay-the-danh-cho-khoa-09dh-10dh-11dh-12-dh">
-                                                    <img alt="Danh sách học phần trương đương thay thế (dành cho khóa 09ĐH, 10ĐH, 11ĐH, 12 ĐH)" src="./hinh-anh/chuong-trinh-dao-tao.png" onerror="this.onerror=null;this.src='/Images/no-img.webp'">
-                                                </a>
-                                            </div>
-                                        
-                        
-                                            <div class="news-cont">
-                                                <a href="/dao-tao/danh-sach-hoc-phan-truong-duong-thay-the-danh-cho-khoa-09dh-10dh-11dh-12-dh">
-                                                    <h3>Danh sách học phần trương đương thay thế (dành cho khóa 09ĐH, 10ĐH, 11ĐH, 12 ĐH)</h3>
-                                                </a>
-                                                <span class="news-calendar"><i class="fad fa-calendar"></i>&nbsp;28/12/2022</span>
-                                                <p style="display:none"></p>
-                                            </div>
-                        
+
+                                        <div class="news-thum">
+
+                                            <a
+                                                href="/dao-tao/danh-sach-hoc-phan-truong-duong-thay-the-danh-cho-khoa-09dh-10dh-11dh-12-dh">
+                                                <img alt="Danh sách học phần trương đương thay thế (dành cho khóa 09ĐH, 10ĐH, 11ĐH, 12 ĐH)"
+                                                    src="./hinh-anh/chuong-trinh-dao-tao.png"
+                                                    onerror="this.onerror=null;this.src='/Images/no-img.webp'">
+                                            </a>
+                                        </div>
+
+
+                                        <div class="news-cont">
+                                            <a
+                                                href="/dao-tao/danh-sach-hoc-phan-truong-duong-thay-the-danh-cho-khoa-09dh-10dh-11dh-12-dh">
+                                                <h3>Danh sách học phần trương đương thay thế (dành cho khóa 09ĐH, 10ĐH,
+                                                    11ĐH, 12 ĐH)</h3>
+                                            </a>
+                                            <span class="news-calendar"><i
+                                                    class="fad fa-calendar"></i>&nbsp;28/12/2022</span>
+                                            <p style="display:none"></p>
+                                        </div>
+
                                     </div>
                                     <br>
                                     <div class="single-news zoom stt_3">
-                                        
-                                            <div class="news-thum">
-                        
-                                                <a href="/dao-tao/danh-sach-giang-vien-giang-day-cao-hoc-tai-khoa-cong-nghe-thong-tin">
-                                                    <img alt="Danh sách giảng viên giảng dạy cao học tại khoa Công nghệ Thông tin" src="./hinh-anh/survey.jpg" onerror="this.onerror=null;this.src='/Images/no-img.webp'">
-                                                </a>
-                                            </div>
-                                        
-                        
-                                            <div class="news-cont">
-                                                <a href="/dao-tao/danh-sach-giang-vien-giang-day-cao-hoc-tai-khoa-cong-nghe-thong-tin">
-                                                    <h3>Danh sách giảng viên giảng dạy cao học tại khoa Công nghệ Thông tin</h3>
-                                                </a>
-                                                <span class="news-calendar"><i class="fad fa-calendar"></i>&nbsp;28/12/2022</span>
-                                                <p style="display:none"></p>
-                                            </div>
-                        
+
+                                        <div class="news-thum">
+
+                                            <a
+                                                href="/dao-tao/danh-sach-giang-vien-giang-day-cao-hoc-tai-khoa-cong-nghe-thong-tin">
+                                                <img alt="Danh sách giảng viên giảng dạy cao học tại khoa Công nghệ Thông tin"
+                                                    src="./hinh-anh/survey.jpg"
+                                                    onerror="this.onerror=null;this.src='/Images/no-img.webp'">
+                                            </a>
+                                        </div>
+
+
+                                        <div class="news-cont">
+                                            <a
+                                                href="/dao-tao/danh-sach-giang-vien-giang-day-cao-hoc-tai-khoa-cong-nghe-thong-tin">
+                                                <h3>Danh sách giảng viên giảng dạy cao học tại khoa Công nghệ Thông tin
+                                                </h3>
+                                            </a>
+                                            <span class="news-calendar"><i
+                                                    class="fad fa-calendar"></i>&nbsp;28/12/2022</span>
+                                            <p style="display:none"></p>
+                                        </div>
+
                                     </div>
                                     <br>
                                     <div class="single-news zoom stt_4">
-                                        
-                                            <div class="news-thum">
-                        
-                                                <a href="/dao-tao/chuan-dau-ra">
-                                                    <img alt="Chuẩn đầu ra " src="./hinh-anh/thong-bao1.png" onerror="this.onerror=null;this.src='/Images/no-img.webp'">
-                                                </a>
-                                            </div>
-                                        
-                        
-                                            <div class="news-cont">
-                                                <a href="/dao-tao/chuan-dau-ra">
-                                                    <h3>Chuẩn đầu ra</h3>
-                                                </a>
-                                                <span class="news-calendar"><i class="fad fa-calendar"></i>&nbsp;03/11/2022</span>
-                                                <p style="display:none">Chuẩn đầu ra</p>
-                                            </div>
-                        
+
+                                        <div class="news-thum">
+
+                                            <a href="/dao-tao/chuan-dau-ra">
+                                                <img alt="Chuẩn đầu ra " src="./hinh-anh/thong-bao1.png"
+                                                    onerror="this.onerror=null;this.src='/Images/no-img.webp'">
+                                            </a>
+                                        </div>
+
+
+                                        <div class="news-cont">
+                                            <a href="/dao-tao/chuan-dau-ra">
+                                                <h3>Chuẩn đầu ra</h3>
+                                            </a>
+                                            <span class="news-calendar"><i
+                                                    class="fad fa-calendar"></i>&nbsp;03/11/2022</span>
+                                            <p style="display:none">Chuẩn đầu ra</p>
+                                        </div>
+
                                     </div>
                                     <br>
-                        </div>
-                        
+                                </div>
+
                                 <a id="aMoreMulti99" class="view-more" href="/dao-tao" data-load="0"> >>Xem thêm</a>
                             </div>
                         </div>
@@ -504,8 +552,23 @@
                             </h3>
                             <hr>
                             <div class="wrap-bg-1">
-                                <div class="slide-item slide-img Home-Pano-TieuDiem" onclick="location.href='/dao-tao/cac-quyet-dinh-mon-hoc-phan-tuong-duong-thay-the';"><a href="/dao-tao/cac-quyet-dinh-mon-hoc-phan-tuong-duong-thay-the" target="_blank"><span style="display:none;" class="slide-name">Danh sách các học phần tương đương thay thế</span><span style="display:none;" class="slide-content"></span><img src="./hinh-anh/Danh-sach-hoc-phan.png" class="blur-up ls-is-cached lazyloaded" data-src="/kcntt/images/slide/pano_5.png" alt=""></a></div>
-                                <div class="slide-item slide-img Home-Pano-TieuDiem" onclick="location.href='/thong-bao/lich-bao-ve-khoa-luan-tot-nghiep-khoa-08dh';"><a href="/thong-bao/lich-bao-ve-khoa-luan-tot-nghiep-khoa-08dh" target="_blank"><span style="display:none;" class="slide-name">Lịch bảo vệ khóa luận tốt nghiệp khóa 08ĐH</span><span style="display:none;" class="slide-content"></span><img src="./hinh-anh/Lich-bao-ve-khoa-luan.png" class="blur-up lazyloaded" data-src="/kcntt/images/slide/pano_1.png" alt=""></a></div>
+                                <div class="slide-item slide-img Home-Pano-TieuDiem"
+                                    onclick="location.href='/dao-tao/cac-quyet-dinh-mon-hoc-phan-tuong-duong-thay-the';">
+                                    <a href="/dao-tao/cac-quyet-dinh-mon-hoc-phan-tuong-duong-thay-the"
+                                        target="_blank"><span style="display:none;" class="slide-name">Danh sách các học
+                                            phần tương đương thay thế</span><span style="display:none;"
+                                            class="slide-content"></span><img src="./hinh-anh/Danh-sach-hoc-phan.png"
+                                            class="blur-up ls-is-cached lazyloaded"
+                                            data-src="/kcntt/images/slide/pano_5.png" alt=""></a>
+                                </div>
+                                <div class="slide-item slide-img Home-Pano-TieuDiem"
+                                    onclick="location.href='/thong-bao/lich-bao-ve-khoa-luan-tot-nghiep-khoa-08dh';"><a
+                                        href="/thong-bao/lich-bao-ve-khoa-luan-tot-nghiep-khoa-08dh"
+                                        target="_blank"><span style="display:none;" class="slide-name">Lịch bảo vệ khóa
+                                            luận tốt nghiệp khóa 08ĐH</span><span style="display:none;"
+                                            class="slide-content"></span><img src="./hinh-anh/Lich-bao-ve-khoa-luan.png"
+                                            class="blur-up lazyloaded" data-src="/kcntt/images/slide/pano_1.png"
+                                            alt=""></a></div>
                             </div>
                         </div>
                     </div>
@@ -513,44 +576,56 @@
             </div>
             <div id="main-content3">
                 <div class="container-content">
+
                     <div class="container-inside-main-content3">
-                        <div class="container-main-content3">
-                            <img class="img-main-content3" src="./hinh-anh/slide.jpg" alt="">
-                            <div class="middle-main-content3">
-                                <div class="text-main-content3">
-                                    Nội dung
-                                </div>
-                            </div>
+                        <div class="container-inside-main-content3-tieude">
+                            <a href="">HỢP TÁC - KẾT NỐI</a>
                         </div>
-                        <div class="container-main-content3">
-                            <img class="img-main-content3" src="./hinh-anh/slide.jpg" alt="">
-                            <div class="middle-main-content3">
-                                <div class="text-main-content3">
-                                    Nội dung
-                                </div>
+                        <div style="display: inline-flex;">
+                            <div class="container-main-content3">
+                                <a href="">
+                                    <img class="img-main-content3" src="./hinh-anh/hopTac2.jpg" alt="">
+                                    <div class="middle-main-content3">
+                                        <div class="text-main-content3">
+                                            Hội nghị Quốc tế FDSE năm 2023
+                                        </div>
+                                    </div>
+                                </a>
                             </div>
-                        </div>
-                        <div class="container-main-content3">
-                            <img class="img-main-content3" src="./hinh-anh/slide.jpg" alt="">
-                            <div class="middle-main-content3">
-                                <div class="text-main-content3">
-                                    Nội dung
-                                </div>
+                            <div class="container-main-content3">
+                                <a href="">
+                                    <img class="img-main-content3" src="./hinh-anh/hopTac1.png" alt="">
+                                    <div class="middle-main-content3">
+                                        <div class="text-main-content3">
+                                            Gameloft Vietnam - Hỗ trợ tuyển dụng - Lập trình viên C++ và Back-End DevOps
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="container-main-content3">
+                                <a href="">
+                                    <img class="img-main-content3" src="./hinh-anh/hopTac3.png" alt="">
+                                    <div class="middle-main-content3">
+                                        <div class="text-main-content3">
+                                            Thông báo học bổng đi học tại Liên Bang Nga năm 2022
+                                        </div>
+                                    </div>
+                                </a>
                             </div>
                         </div>
                     </div>
                     <p class="doiTac-text-container-main-content3" style="text-align: center;">Đối tác</p>
                     <div class="doiTac-container-main-content3">
-                        
+
                         <div class="doiTac-main-content3">
                             <div class="img-doiTac-main-content3">
-                                <img src="./hinh-anh/slide5.jpg" alt="">
+                                <a href=""><img src="./hinh-anh/doiTac3.png" alt=""></a>
                             </div>
                             <div class="img-doiTac-main-content3">
-                                <img src="./hinh-anh/slide5.jpg" alt="">
+                                <a href=""><img src="./hinh-anh/doiTac2.jpg" alt=""></a>
                             </div>
                             <div class="img-doiTac-main-content3">
-                                <img src="./hinh-anh/slide5.jpg" alt="">
+                                <a href=""><img src="./hinh-anh/doiTac1.jpg" alt=""></a>
                             </div>
                         </div>
                     </div>
@@ -565,10 +640,12 @@
                             <div id="col1-maincontent4">
                                 <div id="col1">
                                     <div id="video-col1">
-                                        <img src="https://th.bing.com/th/id/OIP.5-rmaRwGheHlTI8NdaQRSQHaEK?w=289&h=180&c=7&r=0&o=5&dpr=1.5&pid=1.7" alt="" width="100%">
+                                        <img src="https://th.bing.com/th/id/OIP.5-rmaRwGheHlTI8NdaQRSQHaEK?w=289&h=180&c=7&r=0&o=5&dpr=1.5&pid=1.7"
+                                            alt="" width="100%">
                                     </div>
                                     <div id="title-col1">
-                                        <h3>Khai mạc | Hội nghị khoa học quốc gia "Nghiên cứu cơ bản và ứng dụng Công nghệ thông tin"-FAIR 2021</h3>
+                                        <h3>Khai mạc | Hội nghị khoa học quốc gia "Nghiên cứu cơ bản và ứng dụng Công
+                                            nghệ thông tin"-FAIR 2021</h3>
                                         <p></p><!-- ??? -->
                                     </div>
                                 </div>
@@ -577,7 +654,8 @@
                                         <li>
                                             <div class="link-col2">
                                                 <img src="./hinh-anh/hinhAnhTinTuc1.jpg" alt="">
-                                                <p>Khai mạc | Hội nghị khoa học quốc gia "Nghiên cứu cơ bản và ứng dụng Công nghệ thông tin"-FAIR 2021</p>
+                                                <p>Khai mạc | Hội nghị khoa học quốc gia "Nghiên cứu cơ bản và ứng dụng
+                                                    Công nghệ thông tin"-FAIR 2021</p>
                                                 <div id="end-line"></div>
                                             </div>
                                         </li>
@@ -598,8 +676,8 @@
                                         <li>
                                             <div class="link-col2">
                                                 <img src="./hinh-anh/hinhAnhTinTuc4.jpg" alt="">
-                                                <p>Văn nghệ chào mừng ngày Nhà giáo Việt nam 20-11 2019</p>   
-                                                <div id="end-line"></div>                                         
+                                                <p>Văn nghệ chào mừng ngày Nhà giáo Việt nam 20-11 2019</p>
+                                                <div id="end-line"></div>
                                             </div>
                                         </li>
                                         <li>
@@ -627,19 +705,23 @@
                             <ul id="list-ul-content2">
                                 <li>
                                     <div class="list-content2">
-                                        <div><img src="./hinh-anh/hinhAnh1-content2.jpg" alt="" width="135px" height="180px" style="margin-left: 65px;"></div>
-                                        <p>Vòng BÁN KẾT cuộc thi "TÌM KIẾM TÀI NĂNG VÀ SẢN PHẨM SÁNG TẠO CÔNG NGHÊ THÔNG TIN...</p>
+                                        <div><img src="./hinh-anh/hinhAnh1-content2.jpg" alt="" width="135px"
+                                                height="180px" style="margin-left: 65px;"></div>
+                                        <p>Vòng BÁN KẾT cuộc thi "TÌM KIẾM TÀI NĂNG VÀ SẢN PHẨM SÁNG TẠO CÔNG NGHÊ THÔNG
+                                            TIN...</p>
                                     </div>
                                 </li>
                                 <li>
                                     <div class="list-content2">
-                                        <div><img src="./hinh-anh/hinhAnh3-content2.jpg" alt="" width="135px" height="180px" style="margin-left: 65px;"></div>
+                                        <div><img src="./hinh-anh/hinhAnh3-content2.jpg" alt="" width="135px"
+                                                height="180px" style="margin-left: 65px;"></div>
                                         <p>Chụp kỷ yếu khoa CNTT</p>
                                     </div>
                                 </li>
                                 <li>
                                     <div class="list-content2">
-                                        <div><img src="./hinh-anh/hinhAnh2-content2.jpg" alt="" width="266px" height="180px"></div>
+                                        <div><img src="./hinh-anh/hinhAnh2-content2.jpg" alt="" width="266px"
+                                                height="180px"></div>
                                         <p>Khoa CNTT tham gia tư vấn tuyển sinh 2021 ngày 9-1-2021</p>
                                     </div>
                                 </li>
@@ -660,48 +742,66 @@
                     <div class="container-inside">
                         <!-- Noi dung -->
                         <footer id="footer-part">
-                            <div class="our_location bg_cover pt-15 pb-15 w-100" style="background-image: url('#4c90ff');">
+                            <div class="our_location bg_cover pt-15 pb-15 w-100"
+                                style="background-image: url('#4c90ff');">
                                 <div class="container" id="lien-he">
                                     <div class="location_con">
                                         <div class="com_info">
                                             <dl>
-                                                <dt class="la-mb"><i class="fa fa-home"><img src="./hinh-anh/icon-home.png" alt=""></i>
-                                                    <span>&nbsp;Đơn vị</span></dt>
+                                                <dt class="la-mb"><i class="fa fa-home"><img
+                                                            src="./hinh-anh/icon-home.png" alt=""></i>
+                                                    <span>&nbsp;Đơn vị</span>
+                                                </dt>
                                                 <dd>Khoa Công nghệ Thông tin</dd>
                                             </dl>
                                             <dl>
-                                                <dt class="la-mb"><i class="fa fa-map-marker"><img src="./hinh-anh/Nav/address-icon.png" alt=""></i>
-                                                    <span>&nbsp;Địa chỉ</span></dt>
+                                                <dt class="la-mb"><i class="fa fa-map-marker"><img
+                                                            src="./hinh-anh/Nav/address-icon.png" alt=""></i>
+                                                    <span>&nbsp;Địa chỉ</span>
+                                                </dt>
                                                 <dd>140 Lê Trọng Tấn, Phường Tây Thạnh, Quận Tân Phú, TP.HCM</dd>
                                             </dl>
                                             <dl>
-                                                <dt class="la-mb"><i class="fa fa-phone"><img src="./hinh-anh/Nav/phone.png" alt=""></i>
+                                                <dt class="la-mb"><i class="fa fa-phone"><img
+                                                            src="./hinh-anh/Nav/phone.png" alt=""></i>
                                                     <span>&nbsp;Điện thoại</span>
                                                 </dt>
                                                 <dd>0283 8163 318</dd>
                                             </dl>
                                             <dl>
-                                                <dt class="la-mb"><i class="fa fa-envelope" style="font-size: 18px;"><img src="./hinh-anh/Nav/icon-email.png" alt=""></i>
-                                                    <span>&nbsp;Email</span></dt>
+                                                <dt class="la-mb"><i class="fa fa-envelope"
+                                                        style="font-size: 18px;"><img
+                                                            src="./hinh-anh/Nav/icon-email.png" alt=""></i>
+                                                    <span>&nbsp;Email</span>
+                                                </dt>
                                                 <dd>infor@hufi.edu.vn</dd>
                                             </dl>
-                            
-                            
+
+
                                             <div class="footer-about">
                                                 <div class="social-slogan hide"></div>
                                                 <ul class="mt-40 ul-social">
-                                                    <li><a href="https://www.facebook.com/HUFIFIT" class="facebook"><i class="ficon fa-facebook-f"></i></a></li>
-                                                    <li><a href="https://oa.zalo.me/tuyensinhhufi " class="zalo"><i class="fa"></i></a></li>
-                                                    <li><a href="https://vt.tiktok.com/ZSJNKjowo " class="tiktok"><i class="fa"></i></a></li>
-                            
-                                                    <li><a href="https://www.youtube.com/channel/UCWGaDjt26rLcaKAVdn1UzHQ " class="youtube"><i class="ficon fa-youtube"></i></a></li>
-                                                    <li><a href="https://www.instagram.com/hufi_media/ " class="instagram"><i class="ficon fa-instagram"></i></a></li>
-                            
+                                                    <li><a href="https://www.facebook.com/HUFIFIT" class="facebook"><i
+                                                                class="ficon fa-facebook-f"></i></a></li>
+                                                    <li><a href="https://oa.zalo.me/tuyensinhhufi " class="zalo"><i
+                                                                class="fa"></i></a></li>
+                                                    <li><a href="https://vt.tiktok.com/ZSJNKjowo " class="tiktok"><i
+                                                                class="fa"></i></a></li>
+
+                                                    <li><a href="https://www.youtube.com/channel/UCWGaDjt26rLcaKAVdn1UzHQ "
+                                                            class="youtube"><i class="ficon fa-youtube"></i></a></li>
+                                                    <li><a href="https://www.instagram.com/hufi_media/ "
+                                                            class="instagram"><i class="ficon fa-instagram"></i></a>
+                                                    </li>
+
                                                 </ul>
                                             </div>
                                         </div>
                                         <div class="map">
-                                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.056848429508!2d106.62643781411664!3d10.80695806158611!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752be27d8b4f4d%3A0x92dcba2950430867!2zVHLGsOG7nW5nIMSQYcyjaSBob8yjYyBDw7RuZyBuZ2hp4buHcCBUaOG7sWMgcGjhuqltIFRow6BuaCBwaOG7kSBI4buTIENow60gTWluaA!5e0!3m2!1svi!2s!4v1569207231123!5m2!1svi!2s " width="100%" height="260" frameborder="0" style="border: 0" allowfullscreen=""></iframe>
+                                            <iframe
+                                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.056848429508!2d106.62643781411664!3d10.80695806158611!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752be27d8b4f4d%3A0x92dcba2950430867!2zVHLGsOG7nW5nIMSQYcyjaSBob8yjYyBDw7RuZyBuZ2hp4buHcCBUaOG7sWMgcGjhuqltIFRow6BuaCBwaOG7kSBI4buTIENow60gTWluaA!5e0!3m2!1svi!2s!4v1569207231123!5m2!1svi!2s "
+                                                width="100%" height="260" frameborder="0" style="border: 0"
+                                                allowfullscreen=""></iframe>
                                         </div>
                                     </div>
                                 </div>
@@ -721,28 +821,29 @@
                                     <div class="col-md-8">
                                         <div class="copyright text-md-left text-center">
                                             <p>
-                                                © 2020 Hufi.edu.vn - 
+                                                © 2020 Hufi.edu.vn -
                                                 <span id="histats_counter_wrapp">
                                                     <i class="fas fa-chart-bar"></i>
                                                     <span id="histats_counter"></span>
                                                 </span>
                                             </p>
                                         </div>
-                    
+
                                         <ul class="list_count" style="display: none">
-                                            
+
                                             <li><a href="javascript:void(0);">
-                                                <i class="fa fa-toggle-on"></i>Online:&nbsp;
-                                                4294967261</a></li>
+                                                    <i class="fa fa-toggle-on"></i>Online:&nbsp;
+                                                    4294967261</a></li>
                                             <li><a href="javascript:void(0);">
-                                                <i class="fa fa-globe"></i>
-                                                Tổng cộng:&nbsp;0</a></li>
+                                                    <i class="fa fa-globe"></i>
+                                                    Tổng cộng:&nbsp;0</a></li>
                                         </ul>
                                     </div>
                                     <div class="col-md-4">
-                    
+
                                         <div class="copyright text-md-right text-center">
-                                            <p>Designed by <a href="https://salesoft.vn" rel="nofollow" style="color: #fff;">SaleSoft</a></p>
+                                            <p>Designed by <a href="https://salesoft.vn" rel="nofollow"
+                                                    style="color: #fff;">SaleSoft</a></p>
                                         </div>
                                     </div>
                                 </div>
