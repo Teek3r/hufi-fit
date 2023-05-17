@@ -799,6 +799,10 @@ body {
     transition: all 0.4s linear;
     margin: 0px;
 }
+.news-cont a
+{
+    text-decoration: none;
+}
 .news-cont p
 {
     font-size: 14px;
