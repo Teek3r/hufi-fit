@@ -397,12 +397,16 @@ body {
     font-size: 15px;
 }
 .list-thongBao li p{
-    margin: 10px 0px 15px 0px;
+    /* margin: 10px 0px 15px 0px; */
     color: #86877F;
 }
-.list-thongBao li p::before{
-    content: "\f133";
-    margin: 10px 0px 15px 0px;
+
+.date span{
+    font-size: 20px;
+    color:rgb(49, 108, 236);
+}
+.date p{
+    margin: 0px;
 }
 /* tin tuc hoat dong */
 .tinTuc{
@@ -419,10 +423,7 @@ body {
     color: #86877F;
     font-size: 14.5px;
 }
-.col1-tinTuc #date::before{
-    content: "\f133";
-    margin: 10px 0px 15px 0px;
-}
+
 .col2-tinTuc{
     width: 50%;
     height: 100%;
@@ -438,6 +439,7 @@ body {
 .row2{
     width: 70%;
     padding: 0px 4px;
+    
 }
 .row2 a{
     text-decoration: none;
@@ -449,10 +451,14 @@ body {
     margin: 0px;
     color: #86877F;
 }
-.row2 p::before{
-    content: "\f133";
-    margin: 10px 0px 15px 0px;
+.row2 span{
+    color: rgb(49, 108, 236);
+    font-size: 20px;
 }
+.date{
+    display: flex;
+}
+
 .tinThucHoatDong h4{
     border-bottom: 2px solid #b0b0b0;
     text-transform: uppercase;
@@ -541,6 +547,16 @@ body {
     margin-top: 2px;
     margin-right: 10px;
     float: left;
+}
+.link-col2 a{
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: bold;
+    padding: 0px;
+    margin: 0px;
+    text-align: justify;
+    text-decoration: none;
+    color: black;
 }
 .link-col2 p{
     font-size: 14px;
