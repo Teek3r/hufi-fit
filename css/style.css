@@ -139,7 +139,10 @@ body {
     position: relative;
     margin: auto;
 }
-
+.slide-show
+{
+    
+}
 /* Next & previous buttons */
 .prev,
 .next {
