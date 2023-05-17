@@ -139,7 +139,10 @@ body {
     position: relative;
     margin: auto;
 }
-
+.slide-show
+{
+    
+}
 /* Next & previous buttons */
 .prev,
 .next {
@@ -812,6 +815,10 @@ body {
     transition: all 0.4s linear;
     margin: 0px;
 }
+.news-cont a
+{
+    text-decoration: none;
+}
 .news-cont p
 {
     font-size: 14px;
@@ -939,7 +946,7 @@ div.location_con .com_info dl dd{
 .footer-copyright .copyright p {
     color: #fff;
     margin: 0;
-    font-size: 11px;
+    font-size: 10px;
     line-height: 18px;
     margin-top: 12px;
 }
