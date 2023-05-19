@@ -1,12 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bai viet</title>
     <link rel="stylesheet" href="../css/stylebaiviet.css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <style>
+        #main-container {
+
+            width: 1110px;
+            margin: 0px 104px;
+        }
+
+        #main-content {
+            display: inline-flex;
+            background: #e0d385;
+            position: static;
+        }
+
+        #content1 {
+            background: #b5dfc5;
+            width: 805px;
+            height: 8116px;
+            display: block;
+        }
+
+        #content2 {
+            background: #68c98d;
+            width: 305px;
+            height: 500px;
+            display: block;
+            right: 0px;
+            left: 0px;
+        }
+        .content2-content1{
+            position: fixed;
+            width: 305px;
+            height: 200px;
+            background: #e68f8f;
+        }
+        #container-np {
+            background: #e29dd1;
+            width: 100%;
+            height: 45px;
+            margin: 10px auto;
+            padding: 5px 9px;
+        }
+
+        .content1-tieuDe h1 {
+            font-size: 22px;
+            margin-bottom: 8px;
+        }
+        .date {
+            display: flex;
+        }
+        .date span {
+            font-size: 20px;
+            color: rgb(49, 108, 236);
+        }
+
+        .date p {
+            margin: 0px;
+        }
+    </style>
 </head>
+
 <body>
     <div id="container">
         <div id="header">
@@ -109,104 +171,144 @@
                     <img src="../hinh-anh/search-button.png" width="30" height="30px" alt="">
                 </div>
             </div>
-        <div id="container">
-            <div id="main-content1">
-                <div class="container-content">
-                    <div class="container-inside">
+            <div id="main-container">
+                <div id="container-np">
+
+                </div>
+                <div id="main-content">
+
+                    <div id="content1">
+                        <div class="content1-tieuDe">
+                            <!-- Tieu de bai viet -->
+                            <h1>DFADFASDFASFADSFASDF</h1>
+                        </div>
+                        <div class="date">
+                            <span class="material-symbols-outlined">
+                                calendar_month
+                            </span>
+                            <!-- ngay thang nam -->
+                            <p>00/00/000</p>
+                        </div>
                         
+                    </div>
+                    <div id="content2">
+                        <div class="content2-content1">
+
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-        <div id="footer">
-            <div id="footer-info">
+            <div id="footer">
+                <div id="footer-info">
+                    <div class="container-content">
+                        <div class="container-inside">
+                            <!-- Noi dung -->
+                            <footer id="footer-part">
+                                <div class="our_location bg_cover pt-15 pb-15 w-100"
+                                    style="background-image: url('#4c90ff');">
+                                    <div class="container" id="lien-he">
+                                        <div class="location_con">
+                                            <div class="com_info">
+                                                <dl>
+                                                    <dt class="la-mb"><i class="fa fa-home"><img
+                                                                src="../hinh-anh/icon-home.png" alt=""></i>
+                                                        <span>&nbsp;Đơn vị</span>
+                                                    </dt>
+                                                    <dd>Khoa Công nghệ Thông tin</dd>
+                                                </dl>
+                                                <dl>
+                                                    <dt class="la-mb"><i class="fa fa-map-marker"><img
+                                                                src="../hinh-anh/Nav/address-icon.png" alt=""></i>
+                                                        <span>&nbsp;Địa chỉ</span>
+                                                    </dt>
+                                                    <dd>140 Lê Trọng Tấn, Phường Tây Thạnh, Quận Tân Phú, TP.HCM</dd>
+                                                </dl>
+                                                <dl>
+                                                    <dt class="la-mb"><i class="fa fa-phone"><img
+                                                                src="../hinh-anh/Nav/phone.png" alt=""></i>
+                                                        <span>&nbsp;Điện thoại</span>
+                                                    </dt>
+                                                    <dd>0283 8163 318</dd>
+                                                </dl>
+                                                <dl>
+                                                    <dt class="la-mb"><i class="fa fa-envelope"
+                                                            style="font-size: 18px;"><img
+                                                                src="../hinh-anh/Nav/icon-email.png" alt=""></i>
+                                                        <span>&nbsp;Email</span>
+                                                    </dt>
+                                                    <dd>infor@hufi.edu.vn</dd>
+                                                </dl>
+
+
+                                                <div class="footer-about">
+                                                    <div class="social-slogan hide"></div>
+                                                    <ul class="mt-40 ul-social">
+                                                        <li><a href="https://www.facebook.com/HUFIFIT"
+                                                                class="facebook"><i class="ficon fa-facebook-f"></i></a>
+                                                        </li>
+                                                        <li><a href="https://oa.zalo.me/tuyensinhhufi " class="zalo"><i
+                                                                    class="fa"></i></a></li>
+                                                        <li><a href="https://vt.tiktok.com/ZSJNKjowo " class="tiktok"><i
+                                                                    class="fa"></i></a></li>
+
+                                                        <li><a href="https://www.youtube.com/channel/UCWGaDjt26rLcaKAVdn1UzHQ "
+                                                                class="youtube"><i class="ficon fa-youtube"></i></a>
+                                                        </li>
+                                                        <li><a href="https://www.instagram.com/hufi_media/ "
+                                                                class="instagram"><i class="ficon fa-instagram"></i></a>
+                                                        </li>
+
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            <div class="map">
+                                                <iframe
+                                                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.056848429508!2d106.62643781411664!3d10.80695806158611!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752be27d8b4f4d%3A0x92dcba2950430867!2zVHLGsOG7nW5nIMSQYcyjaSBob8yjYyBDw7RuZyBuZ2hp4buHcCBUaOG7sWMgcGjhuqltIFRow6BuaCBwaOG7kSBI4buTIENow60gTWluaA!5e0!3m2!1svi!2s!4v1569207231123!5m2!1svi!2s "
+                                                    width="100%" height="260" frameborder="0" style="border: 0"
+                                                    allowfullscreen=""></iframe>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </footer>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="footer-designer">
                 <div class="container-content">
                     <div class="container-inside">
                         <!-- Noi dung -->
-                        <footer id="footer-part">
-                            <div class="our_location bg_cover pt-15 pb-15 w-100" style="background-image: url('#4c90ff');">
-                                <div class="container" id="lien-he">
-                                    <div class="location_con">
-                                        <div class="com_info">
-                                            <dl>
-                                                <dt class="la-mb"><i class="fa fa-home"><img src="../hinh-anh/icon-home.png" alt=""></i>
-                                                    <span>&nbsp;Đơn vị</span></dt>
-                                                <dd>Khoa Công nghệ Thông tin</dd>
-                                            </dl>
-                                            <dl>
-                                                <dt class="la-mb"><i class="fa fa-map-marker"><img src="../hinh-anh/Nav/address-icon.png" alt=""></i>
-                                                    <span>&nbsp;Địa chỉ</span></dt>
-                                                <dd>140 Lê Trọng Tấn, Phường Tây Thạnh, Quận Tân Phú, TP.HCM</dd>
-                                            </dl>
-                                            <dl>
-                                                <dt class="la-mb"><i class="fa fa-phone"><img src="../hinh-anh/Nav/phone.png" alt=""></i>
-                                                    <span>&nbsp;Điện thoại</span>
-                                                </dt>
-                                                <dd>0283 8163 318</dd>
-                                            </dl>
-                                            <dl>
-                                                <dt class="la-mb"><i class="fa fa-envelope" style="font-size: 18px;"><img src="../hinh-anh/Nav/icon-email.png" alt=""></i>
-                                                    <span>&nbsp;Email</span></dt>
-                                                <dd>infor@hufi.edu.vn</dd>
-                                            </dl>
-                            
-                            
-                                            <div class="footer-about">
-                                                <div class="social-slogan hide"></div>
-                                                <ul class="mt-40 ul-social">
-                                                    <li><a href="https://www.facebook.com/HUFIFIT" class="facebook"><i class="ficon fa-facebook-f"></i></a></li>
-                                                    <li><a href="https://oa.zalo.me/tuyensinhhufi " class="zalo"><i class="fa"></i></a></li>
-                                                    <li><a href="https://vt.tiktok.com/ZSJNKjowo " class="tiktok"><i class="fa"></i></a></li>
-                            
-                                                    <li><a href="https://www.youtube.com/channel/UCWGaDjt26rLcaKAVdn1UzHQ " class="youtube"><i class="ficon fa-youtube"></i></a></li>
-                                                    <li><a href="https://www.instagram.com/hufi_media/ " class="instagram"><i class="ficon fa-instagram"></i></a></li>
-                            
-                                                </ul>
-                                            </div>
+                        <div class="footer-copyright pt-10 pb-10 w-100 clear">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-md-8">
+                                        <div class="copyright text-md-left text-center">
+                                            <p>
+                                                © 2020 Hufi.edu.vn -
+                                                <span id="histats_counter_wrapp">
+                                                    <i class="fas fa-chart-bar"></i>
+                                                    <span id="histats_counter"></span>
+                                                </span>
+                                            </p>
                                         </div>
-                                        <div class="map">
-                                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.056848429508!2d106.62643781411664!3d10.80695806158611!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752be27d8b4f4d%3A0x92dcba2950430867!2zVHLGsOG7nW5nIMSQYcyjaSBob8yjYyBDw7RuZyBuZ2hp4buHcCBUaOG7sWMgcGjhuqltIFRow6BuaCBwaOG7kSBI4buTIENow60gTWluaA!5e0!3m2!1svi!2s!4v1569207231123!5m2!1svi!2s " width="100%" height="260" frameborder="0" style="border: 0" allowfullscreen=""></iframe>
+
+                                        <ul class="list_count" style="display: none">
+
+                                            <li><a href="javascript:void(0);">
+                                                    <i class="fa fa-toggle-on"></i>Online:&nbsp;
+                                                    4294967261</a></li>
+                                            <li><a href="javascript:void(0);">
+                                                    <i class="fa fa-globe"></i>
+                                                    Tổng cộng:&nbsp;0</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-md-4">
+
+                                        <div class="copyright text-md-right text-center">
+                                            <p>Designed by <a href="https://salesoft.vn" rel="nofollow"
+                                                    style="color: #fff;">SaleSoft</a></p>
                                         </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </footer>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div id="footer-designer">
-            <div class="container-content">
-                <div class="container-inside">
-                    <!-- Noi dung -->
-                    <div class="footer-copyright pt-10 pb-10 w-100 clear">
-                        <div class="container">
-                            <div class="row">
-                                <div class="col-md-8">
-                                    <div class="copyright text-md-left text-center">
-                                        <p>
-                                            © 2020 Hufi.edu.vn - 
-                                            <span id="histats_counter_wrapp">
-                                                <i class="fas fa-chart-bar"></i>
-                                                <span id="histats_counter"></span>
-                                            </span>
-                                        </p>
-                                    </div>
-                
-                                    <ul class="list_count" style="display: none">
-                                        
-                                        <li><a href="javascript:void(0);">
-                                            <i class="fa fa-toggle-on"></i>Online:&nbsp;
-                                            4294967261</a></li>
-                                        <li><a href="javascript:void(0);">
-                                            <i class="fa fa-globe"></i>
-                                            Tổng cộng:&nbsp;0</a></li>
-                                    </ul>
-                                </div>
-                                <div class="col-md-4">
-                
-                                    <div class="copyright text-md-right text-center">
-                                        <p>Designed by <a href="https://salesoft.vn" rel="nofollow" style="color: #fff;">SaleSoft</a></p>
                                     </div>
                                 </div>
                             </div>
@@ -215,7 +317,7 @@
                 </div>
             </div>
         </div>
-    </div>
-    
+
 </body>
+
 </html>
