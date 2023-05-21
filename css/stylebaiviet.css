@@ -321,3 +321,66 @@ div.location_con .com_info dl dd{
 {
     margin-left: 810px;
 }
+/* start menu da cap*/
+#header3-menu ul li
+{
+    float: left;
+}
+#header3-menu ul li#dropdown
+{
+    display: inline-block;
+}
+#drop #dropdown-content a
+{
+    color:white;
+    padding: 5px 16px;
+    display: block;
+}
+#dropdown-content
+{
+    display: none;
+}
+#header3-menu ul li:hover #dropdown-content
+{
+    display: block;
+    position: absolute;
+    background-color:#1D3B71;
+    margin-top: 3px;
+    z-index: 1;
+}
+#header3-menu ul li:hover #dropdown-content ul
+{
+    display: block;
+    margin: 0px;
+    padding: 0px;
+}
+#header3-menu ul li:hover #dropdown-content ul li
+{
+    width: 220px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+}
+#header3-menu ul li:hover #dropdown-content ul li:last-child
+{
+    border-bottom: none;
+}
+#header3-menu ul li:hover #dropdown-content ul li:hover
+{
+    background-color: white;
+}
+#header3-menu ul li:hover #dropdown-content ul li a:hover
+{
+    color: black;
+}
+#dropdown-content-2
+{
+    display: none;
+}
+#drop-hover:hover #dropdown-content-2
+{
+    display: block;
+    position: absolute;
+    background-color:#1D3B71;
+    margin-left: 220px;
+    margin-top: -35px;
+}
+/* end menu da cap*/
