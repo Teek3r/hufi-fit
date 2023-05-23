@@ -147,10 +147,12 @@ body {
     list-style-type: decimal;
     padding-bottom: 10px;
     font-size: 14px;
+    text-align: justify;
 }
 .XemThem li a{
     text-decoration:  none;
     color: #0066cb;
+
 }
 .content2-content1-tieuDe a {
     text-decoration: none;
@@ -514,6 +516,7 @@ div.location_con .com_info dl dd{
 .col-md-4 .copyright p
 {
     margin-left: 810px;
+    font-size: 9px;
 }
 /* start menu da cap*/
 #header3-menu ul li
