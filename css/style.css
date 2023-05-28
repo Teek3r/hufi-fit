@@ -614,17 +614,25 @@ body {
 #nav-header-top
 {
     display: flex;
-    position:relative ;
-    margin: auto;
     justify-content: space-between;
+    text-align: center;
+    position: relative;
 }
 #nav1-header1 ul , #nav2-header1 ul
 {
     margin-top: 9px;
 }
+#nav1-header1
+{
+    margin-left: -25px;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
 #nav1-header1 ul li
 {
     border-right: 1px white solid;
+    position: relative;
 }
 #nav1-header1 ul li:last-child
 {
@@ -971,7 +979,7 @@ div.location_con .com_info dl dd{
 }
 /* end footer */
 
-/* start menu da cap*/
+/* start menu da cap phan gioi thieu*/
 #header3-menu ul li
 {
     float: left;
@@ -1034,4 +1042,52 @@ div.location_con .com_info dl dd{
     margin-left: 220px;
     margin-top: -35px;
 }
-/* end menu da cap*/
+/* end menu da cap phan gioi thieu*/
+
+/* start menu cap 2 khung lanh dao*/
+#nav1-header1 ul li.drop-menu-container
+{
+    display: inline-block;
+}
+.drop-menu-container ul li
+{
+    display: inline-block;
+    color: #fff;
+    font-size: 13px;
+    font-weight: 500;
+    padding: 0 3px;
+    position: relative;
+}
+.drop-menu-container
+{
+    display: none;
+}
+.drop-menu-container ul li a
+{
+    display: block;
+    padding: 5px 15px;
+}
+#nav1-header1 ul li:hover .drop-menu-container
+{
+    display: block;
+    background-color: #71a9e4;
+    position: absolute;
+    z-index: 1;
+}
+#nav1-header1 ul li:hover .drop-menu-container ul
+{
+    display: block;
+    margin: 0px;
+    padding: 0px;
+}
+#nav1-header1 ul li:hover .drop-menu-container ul li
+{
+    width: 220px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+    text-align: left;
+}
+#nav1-header1 ul li:hover .drop-menu-container ul li:last-child
+{
+    border-bottom: none;
+}
+/* end menu cap 2 khung lanh dao*/
