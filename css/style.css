@@ -624,7 +624,7 @@ body {
 }
 #nav1-header1
 {
-    margin-left: -25px;
+    margin-left: -30px;
     display: flex;
     align-items: center;
     position: relative;
@@ -1022,13 +1022,10 @@ div.location_con .com_info dl dd{
 {
     border-bottom: none;
 }
-#header3-menu ul li:hover #dropdown-content ul li:hover
-{
-    background-color: white;
-}
 #header3-menu ul li:hover #dropdown-content ul li a:hover
 {
-    color: black;
+    background-color: rgb(255, 255, 255);
+    color: #1D3B71;
 }
 #dropdown-content-2
 {
